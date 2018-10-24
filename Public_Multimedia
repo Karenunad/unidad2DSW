@@ -1,0 +1,161 @@
+<! DOCTYPE html>
+
+< html  lang = " es " >
+    < cabeza >
+        < título > Administración Base de Datos - UNAD </ título >
+        < meta  charset = " UTF-8 " >
+        < meta  name = " viewport "  content = " width = device-width, initial-scale = 1.0 " >
+        < meta  content = " Curso Administración de Bases de Datos Relacionales "  name = " application-name " />
+        < meta  contenido = " Grupo 301122_6 UNAD "  nombre = " autor " />
+        < meta  content = " Contenido Tematico de Capacitación en Administración de Bases de Datos Relacionales. "  name = " description " />
+        < meta  contenido = " Base de datos, SQL, Oracle, MySQL "  nombre = " palabras clave " />
+        < link  rel = " icon "  href = " img / favicon.ico " >
+
+        <! - Bootstrap CSS ->
+        < link  href = " bootstrap / css / bootstrap.min.css "  rel = " hoja de estilo "  type = " text / css " />
+
+        <! - Estilos ->
+        < link  href = " css / Inicio.css "  rel = " stylesheet "  type = " text / css " />
+        
+    </ cabeza >
+    < cuerpo >
+        < div  class = " container-fluid " >
+            
+            < div  id = " fila1 "  class = " row " >
+                < encabezado >
+                < div  class = " col-sm-6 " > < img  src = " img / logoUNAD-HD.png " /> </ div >
+                < div  class = " col-sm-6 " > < h1 > Administracion Base de Datos - UNAD </ h1 > </ div >
+                </ header >
+            </ div >
+            <! - Fin fila 1 ->
+            
+            < div  id = " fila2 "  class = " row " >
+                < div  class = " col-sm-8 " >
+                    < ul  class = " nav nav-pills " >
+                        < li  class = " nav-item " >
+                            < Una  clase = " nav-enlace activo "  href = " index.html " > Inicio </ una >
+                        </ li >
+                        < li  class = " menú desplegable de elementos de navegación " >
+                            < Una  clase = " nav-link-desplegable de palanca "  datos de palanca = " desplegable "  href = " # " > < img  src = " img / navbar / icons8-literatura-32.png " /> Lecturas </ a >
+                            < div  class = " dropdown-menu " >
+                                < Una  clase = " -elemento desplegable "  href = " # " > Lecturas 1 </ a >
+                                < Una  clase = " -elemento desplegable "  href = " # " > Lecturas 2 </ a >
+                                < Una  clase = " -elemento desplegable "  href = " # " > Lecturas 3 </ a >
+                                < Una  clase = " -elemento desplegable "  href = " # " > Lecturas 4 </ a >
+                                < Una  clase = " -elemento desplegable "  href = " # " > Lecturas 5 </ a >
+                            </ div >
+                        </ li >
+                        < li  class = " menú desplegable de elementos de navegación " >
+                            < Una  clase = " nav-enlace-desplegable de palanca "  datos de palanca = " desplegable "  href = " # " > < img  src = " img / barra de navegación / icons8-Reproducir-en-Círculo-32.png " /> Multimedia < / a >
+                            < div  class = " dropdown-menu " >
+                                < Una  clase = " desplegable ítems "  href = " multimedia1.html " > Modelo Relacional </ a >
+                                < Una  clase = " -elemento desplegable "  href = " multimedia2.html " > Sentencias LDD, LMD y LCD </ una >
+                            </ div >
+                        </ li >
+                        < li  class = " menú desplegable de elementos de navegación " >
+                            < Una  clase = " nav-enlace-desplegable de palanca "  datos de palanca = " desplegable "  href = " # " > < img  src = " img / barra de navegación / icons8-historia-de-la-activity-32.png " /> Actividades </ a >
+                            < div  class = " dropdown-menu " >
+                                < Una  clase = " desplegable ítems "  href = " multimedia1 " > Modelo Relacional </ a >
+                                < Una  clase = " -elemento desplegable "  href = " multimedia2 " > LDD, LMD y LCD </ una >
+                                
+                            </ div >
+                        </ li >
+                        < li  class = " nav-item " >
+                            < Una  clase = " nav-link "  href = " # " > < img  src = " img / barra de navegación / icons8-Derechos-de-autor-32.png " /> Autores </ a >
+                        </ li >
+                    </ ul >
+                </ div >
+                < div  class = " col-sm-4 " >
+                    < nav  class = " navbar navbar-expand-xl " >
+                        < form  class = " form-inline "  action = " # " >
+                            < input  class = " form-control mr-sm-2 "  type = " text "  placeholder = " Buscar "  style = " width : 335 px ; " >
+                            < button  class = " btn btn-success "  type = " submit " > Buscar </ button >
+                        </ form >
+                    </ nav >
+                </ div >
+            </ div >
+            <! - Fin fila 2 ->
+                < div  id = " fila3 "  class = " row " >
+                    < div  class = " col-sm-12 " >
+                        < h3 > Diseño de Bases de Datos </ h3 >
+                        < div  id = " objPricipal "  class = " alert-info-alert "  role = " alert " >
+                                Un aspecto de valiosa importancia en el desarrollo de sistemas de información. 
+                                es la estructura relacional de la base de datos que soportara sus 
+                                Operaciones básicas y avanzadas de escritura y lectura de información, 
+                                Por ello la importancia de su diseño. Un sistema que funciona correctamente
+                                Esquema relacional bien diseñado. 
+                            </ div >
+                    </ div >
+                </ div >
+            <! - Fin fila 3 ->
+            < div  id = " fila4 "  class = " row " >
+                < div  class = " col-sm-12 " >
+                    < div  class = " card " >
+                        < div  class = " card-header " > Tipos de Sentencias SQL LDD-LMD-LCD </ div >
+<! -                         <div class = "card-body">
+                            <embed src = "pdfFiles / DisenoDB.pdf" width = "1200" height = "800" alt = "pdf" pluginspage = "http://www.adobe.com/products/acrobat/readstep2.html">
+                        </div> ->
+                        
+                    </ div >
+                    < Br >
+                </ div >
+                
+            </ div >
+            <! - Fin fila 4 ->
+            
+            < div  id = " fila6 "  class = " row " >
+                < div  class = " col-sm-5 " >
+                    < div  id = " cardContacto "  class = " card " >
+                        < div  class = " card-header " > < h4 > Contacto </ h4 > </ div >
+                        < div  class = " card-body "  style = " padding-bottom : 0 px ; " >
+                            < p > < b > Dirección: </ b > Sede nacional José Celestino Mutis: Calle 14 sur No. 14 - 23 </ p >
+                            < p > < b > PBX: </ b > (+57 1) 344 3700 Bogotá DC, Colombia </ p >
+                            < p > < b > Línea nacional gratuita desde Colombia: </ b > 018000115223 </ p >
+                            < p > < b > Atención al usuario: </ b > atencionalusuario@unad.edu.co </ p >
+                            < p > < b > Anticorrupción: </ b > anticorrupcion@unad.edu.co </ p >
+                        </ div >
+                    </ div >
+                </ div >
+                < div  class = " col-sm-4 " >
+                    < div  id = " cardSocial "  class = " card " >
+                        < div  class = " card-header " > < h4 > Nuestras Redes: </ h4 > </ div >
+                        < div  class = " card-body " >
+                        < Un  href = " http://twitter.com/UniversidadUNAD "  target = " _blank " > < img  src = " img / redesSociales / icons8-twitter-cuadrado-48.png "  título = " Siganos en Twitter - @universidadUNAD " /> </ a >
+                        < Un  href = " https://www.facebook.com/UniversidadUNAD "  target = " _blank " > < img  src = " img / redesSociales / icons8-facebook-48.png "  título = " Siganos en Nuestra página de fans en Facebook - / UniversidadUNAD " /> </ a >
+                        < Un  href = " http://www.youtube.com/universidadunad "  target = " _blank " > < img  src = " img / redesSociales / icons8-youtube-play-48.png "  título = " Suscríbase un canal Nuestro en Youtube en - UniversidadUNAD " /> </ a >
+                        < Un  href = " https://www.flickr.com/photos/universidadunad "  target = " _blank " > < img  src = " img / redesSociales / icons8-flickr-48.png "  título = " Siganos en FlickR - UniversidadUNAD " /> </ a >
+                        < Un  href = " https://www.instagram.com/universidadunad/ "  target = " _blank " > < img  src = " img / redesSociales / icons8-instagram-48.png "  título = " Siganos ES Instagram - @UniversidadUNAD " /> </ a >
+                        </ div >
+                    </ div >
+                </ div >
+                < div  class = " col-sm-3 " >
+                    < div  id = " cardVisitas "  class = " card " >
+                        < div  class = " card-header " > < h4 > Nuestras Visitas </ h4 > </ div >
+                        < div  class = " card-body " >
+                            <! - Codigo contadorvisitas.com ver. 4.3 ->
+                            < img  src = " img / redesSociales / icons8-llamada-de-conferencia-48.png " />
+                            <! - Etiqueta del sitio global (gtag.js) - Google Analytics ->
+                            < script  async  src = " https://www.googletagmanager.com/gtag/js?id=UA-127894493-1 " > </ script >
+                            < script >
+                              ventana . dataLayer  =  ventana . dataLayer  || [];
+                              función  gtag () { dataLayer . empujar ( argumentos );}
+                              gtag ( ' js ' , new  Date ());
+                              gtag ( ' config ' , ' UA-127894493-1 ' );
+                            </ script >
+                            < Un  href = " https://www.easycounter.com/es/ " > < img  src = " https://www.easycounter.com/counter.php?unadadmindb "
+                                     border = " 0 "  alt = " Contador " > </ a >
+                            <! - FIN Codigo contadorvisitas.com ->
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >
+            <! - Fin fila 6 ->
+        </ div >
+        <! - Contenedor de aletas ->
+        <! - jQuery primero, luego Popper.js, luego Bootstrap JS ->
+        < script  src = " js / jquery-slim.min.js "  type = " text / javascript " > </ script >
+        < script  src = " js / popper.min.js "  type = " text / javascript " > </ script >
+        < script  src = " bootstrap / js / bootstrap.bundle.min.js " > </ script >
+        < script  src = " bootstrap / js / bootstrap.min.js " > </ script >
+    </ cuerpo >
+</ html >
